@@ -1,0 +1,54 @@
+/* Contact.css */
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(227, 126, 17);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(236, 133, 23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 60vh;
+    border-radius: 50px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 350px;
+}
+
+input,
+textarea {
+    width: 50%; 
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-left: 185px;
+}
+
+.register-now-button1 {
+    background-color: #ba0d5b; /* Updated color */
+    color: #ffffff;
+    padding: 0px 10px;
+    font-size: 21px;
+    border: none;
+    width: 25%;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 280px;
+}
+
+.register-now-button1:hover {
+    background-color: #13df43; /* Color change on hover */
+}

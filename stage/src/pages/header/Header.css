@@ -1,0 +1,14 @@
+.nav{
+    position: fixed;
+    background-color: blue;
+   
+}
+.logo-container {
+    
+    display: flex;
+    align-items: center;
+    margin-left: -400px;
+   margin-top: -150px;
+    
+  }
+  
