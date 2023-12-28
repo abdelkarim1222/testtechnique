@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';  // Décommentez cette ligne
+import React, { useState, useEffect } from 'react';  
 import spri from "../../assets/springboot.png"
 import imreact from "../../assets/react.png"
 import flu from "../../assets/flutter.png"
@@ -11,8 +11,7 @@ const Courses = () => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
-        // Effectue une requête GET vers le serveur pour récupérer les cours
-        fetch('http://localhost:5000/api/courses') // Assurez-vous de mettre le bon port si nécessaire
+        fetch('http://localhost:5000/api/courses')
             .then(response => response.json())
             .then(data => setCourses(data.courses))
             .catch(error => console.error('Error fetching courses:', error));

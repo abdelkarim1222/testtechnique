@@ -1,5 +1,3 @@
-// courses.js
-
 const express = require('express');
 const Course = require('./course');
 

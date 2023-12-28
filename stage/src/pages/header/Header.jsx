@@ -1,7 +1,7 @@
 import React from 'react';;
 import logo from '../../assets/logo.png';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
-import './Header.css'; // You can create a separate CSS file for your component if needed
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import './Header.css';
 
 const Header = () => {
     return (

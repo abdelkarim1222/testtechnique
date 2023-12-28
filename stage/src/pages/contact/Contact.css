@@ -1,5 +1,3 @@
-/* Contact.css */
-
 .contact-container {
     max-width: 800px;
     margin: 0 auto;
@@ -38,8 +36,7 @@ textarea {
 }
 
 .register-now-button1 {
-    background-color: #ba0d5b; /* Updated color */
-    color: #ffffff;
+    background-color: #ba0d5b; 
     padding: 0px 10px;
     font-size: 21px;
     border: none;
@@ -50,5 +47,5 @@ textarea {
 }
 
 .register-now-button1:hover {
-    background-color: #13df43; /* Color change on hover */
+    background-color: #13df43; 
 }

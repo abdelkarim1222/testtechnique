@@ -1,12 +1,8 @@
-/* Courses.css */
-
-/* Add styles for the container */
 div {
     text-align: center;
     margin: 20px;
 }
 
-/* Add styles for the heading */
 h2 {
     color: #333;
     font-size: 40px;
@@ -20,7 +16,6 @@ h2 {
 
 }
 
-/* Add styles for the button */
 .heading-container button {
     background-color: #aa3067;
     color: white;
@@ -32,17 +27,17 @@ h2 {
     font-weight: bold;
 }
 button:hover {
-    background-color: #13df43; /* Color change on hover */
+    background-color: #13df43; 
 }
 
-/* Add styles for the image container */
+
 .course-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-/* Add styles for each course */
+
 .course {
     margin: 10px;
     text-align: center;
@@ -60,6 +55,6 @@ button:hover {
     font-size: 25px;
 }
 .course h1 {
-    color: red; /* Set the color to red */
+    color: red; 
     font-size: 20px;
 }
